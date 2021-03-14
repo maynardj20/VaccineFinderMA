@@ -31,6 +31,8 @@ This checks the following locations approximatly every 5 minutes using GitHub Ac
   * Woburn
   * Marblehead
   * Marlborough
+  * Framingham
+  * Westborough
 
 ## Historical data
 
