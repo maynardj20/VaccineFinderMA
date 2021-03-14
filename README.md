@@ -1,4 +1,4 @@
-[[![mass-region-vaccine-check](https://github.com/JimmyAstle/VaccineFinderMA/actions/workflows/sites-check.yml/badge.svg)](https://github.com/JimmyAstle/VaccineFinderMA/actions/workflows/sites-check.yml)]
+[![mass-region-vaccine-check](https://github.com/JimmyAstle/VaccineFinderMA/actions/workflows/sites-check.yml/badge.svg)](https://github.com/JimmyAstle/VaccineFinderMA/actions/workflows/sites-check.yml)
 # Massachusetts Region Covid 19 Vaccine Checker
 
 This repository checks several CVS locations in the Massachusetts Region for availability of Covid 19 vaccination appointments.
@@ -6,7 +6,7 @@ This repository checks several CVS locations in the Massachusetts Region for ava
 Follow our <img alt="" src="https://favicons.githubusercontent.com/www.twitter.com" height="13"> **[Twitter bot](https://twitter.com/FinderMass)** <img alt="" src="https://favicons.githubusercontent.com/www.twitter.com" height="13"> to get notified of new appointment availability!
 
 <!--start: status pages-->
-**Last Updated**: 2021-03-13 08:42 PM
+**Last Updated**: 2021-03-13 08:40 PM
 
 | Site                | Status         |
 | ------------------- | -------------- |
@@ -35,6 +35,10 @@ This checks the following locations approximatly every 5 minutes using GitHub Ac
 ## Historical data
 
 Historical availability data from previous checks can be found in the [data/site-data.csv](data/site-data.csv) spreadsheet.
+
+## Acknowledgements
+
+The code in this repo is a modified version of the code found here [CapitalRegionVaccine](https://github.com/CapitalRegionVaccine/CapitalRegionVaccine)
 
 ## 📄 License
 
