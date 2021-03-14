@@ -1,7 +1,6 @@
 name: mass-region-vaccine-check
 
 on:
-  repository_dispatch:
   push:
     branches:
       - main
