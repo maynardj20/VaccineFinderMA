@@ -28,7 +28,7 @@ def main():
     # img urls
     cvs_img = '<img alt="" src="https://favicons.githubusercontent.com/www.cvs.com" height="13">'
 
-    tz = timezone('EST')
+    tz = timezone('America/New_York')
     date = str(datetime.now(tz).strftime('%Y-%m-%d %H:%M:%S'))
     sites = ['CVS']
     appointments = [ cvs ]
@@ -140,7 +140,7 @@ def tweet_it(message):
     
     ##TODO: Error handling
     ##Try to get around twitter duplicate messaging
-    tz = timezone('EST')
+    tz = timezone('America/New_York')
     message = message + " [" + str(datetime.now(tz).strftime('%m-%d-%Y %I:%M %p')) + "]"
     print("Tweeting message: " + message)
     api.update_status(message)
