@@ -1,4 +1,4 @@
-name: capital-region-vaccine-check
+name: mass-region-vaccine-check
 
 on:
   repository_dispatch:
