@@ -3,7 +3,7 @@
 
 This repository checks several CVS locations in the Massachusetts Region for availability of Covid 19 vaccination appointments.
 
-Follow our <img alt="" src="https://favicons.githubusercontent.com/www.twitter.com" height="13"> **[Twitter bot](https://twitter.com/FinderMass)** <img alt="" src="https://favicons.githubusercontent.com/www.twitter.com" height="13"> to get notified of new appointment availability!
+Follow <img alt="" src="https://favicons.githubusercontent.com/www.twitter.com" height="13"> **[Twitter bot](https://twitter.com/FinderMass)** <img alt="" src="https://favicons.githubusercontent.com/www.twitter.com" height="13"> to get notified of new appointment availability!
 
 <!--start: status pages-->
 **Last Updated**: 2021-03-13 09:51 PM
@@ -15,7 +15,7 @@ Follow our <img alt="" src="https://favicons.githubusercontent.com/www.twitter.c
 
 ## Site Information
 
-This checks the following locations approximatly every 5 minutes using GitHub Actions.
+This checks the following locations approximatly every 15 minutes using GitHub Actions.
 
 * The following CVS locations:
   * Medford
