@@ -1,0 +1,4 @@
+## Configuration data
+config = {
+    "cvs_sites": ['MEDFORD', 'DANVERS', 'GLOUCESTER', 'LYNN', 'MEDFORD', 'READING', 'SAUGUS', 'SOMERVILLE', 'STONEHAM', 'WINCHESTER', 'WOBURN', 'MARBLEHEAD', 'MARLBOROUGH']
+}
