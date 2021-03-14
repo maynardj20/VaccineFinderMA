@@ -1,10 +1,10 @@
-[![capital-region-vaccine-check](https://github.com/CapitalRegionVaccine/CapitalRegionVaccine/actions/workflows/sites-check.yml/badge.svg)](https://github.com/CapitalRegionVaccine/CapitalRegionVaccine/actions/workflows/sites-check.yml)
+[![mass-region-vaccine-check](https://github.com/VaccineFinderMA/VaccineFinderMA/actions/workflows/sites-check.yml/badge.svg)](https://github.com/VaccineFinderMA/VaccineFinderMA/actions/workflows/sites-check.yml)
 
-# Capital Region Covid 19 Vaccine Checker
+# Massachusetts Region Covid 19 Vaccine Checker
 
-This repository checks several locations in the New York State Capital Region for availability of Covid 19 vaccination appointments.
+This repository checks several CVS locations in the Massachusetts Region for availability of Covid 19 vaccination appointments.
 
-Follow our <img alt="" src="https://favicons.githubusercontent.com/www.twitter.com" height="13"> **[Twitter bot](https://twitter.com/RegionVaccine)** <img alt="" src="https://favicons.githubusercontent.com/www.twitter.com" height="13"> to get notified of new appointment availability!
+Follow our <img alt="" src="https://favicons.githubusercontent.com/www.twitter.com" height="13"> **[Twitter bot](https://twitter.com/FinderMass)** <img alt="" src="https://favicons.githubusercontent.com/www.twitter.com" height="13"> to get notified of new appointment availability!
 
 <!--start: status pages-->
 **Last Updated**: 2021-03-13 08:08 PM
