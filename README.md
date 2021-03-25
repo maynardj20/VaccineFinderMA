@@ -38,6 +38,9 @@ This checks the following locations approximatly every 15 minutes using GitHub A
   * Malden
   * Peabody
   * Worcester
+  * Lowell
+  * Dracut
+  * Billerica
 
 ## Historical data
 
