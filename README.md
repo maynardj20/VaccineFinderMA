@@ -6,7 +6,7 @@ This repository checks several CVS locations in the Massachusetts Region for ava
 Follow <img alt="" src="https://favicons.githubusercontent.com/www.twitter.com" height="13"> **[Twitter bot](https://twitter.com/FinderMass)** <img alt="" src="https://favicons.githubusercontent.com/www.twitter.com" height="13"> to get notified of new appointment availability!
 
 <!--start: status pages-->
-**Last Updated**: 2021-03-31 10:53 AM
+**Last Updated**: 2021-03-31 11:27 AM
 
 | Site                | Status         |
 | ------------------- | -------------- |
