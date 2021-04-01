@@ -47,6 +47,7 @@ This checks the following locations approximatly every 15 minutes using GitHub A
   * Attleboro
   * North Attleboro
   * Seekonk
+  * Wrentham
 
 ## Historical data
 
