@@ -45,6 +45,8 @@ This checks the following locations approximatly every 15 minutes using GitHub A
   * Methuen
   * Lawrence
   * Attleboro
+  * North Attleboro
+  * Seekonk
 
 ## Historical data
 
