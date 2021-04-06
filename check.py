@@ -2,7 +2,7 @@
 import requests
 import json
 import pandas as pd
-import tweepy
+# import tweepy
 import os
 import config as cfg
 import time
@@ -46,14 +46,14 @@ def main():
         last_data = df_historical.iloc[0]
 
         ##Maybe tweet new availability
-        if cvs.startswith( 'Available' ) and not last_data['CVS'].startswith( 'Available' ):
-            tweet_it('Vaccination appointments are available at CVS. ' + cvs[9:] + " " + cvs_url)
-            #print("Vaccine app available " + cvs[9:] + " " + +cvs_url 
+        # if cvs.startswith( 'Available' ) and not last_data['CVS'].startswith( 'Available' ):
+            # tweet_it('Vaccination appointments are available at CVS. ' + cvs[9:] + " " + cvs_url)
+            ## print("Vaccine app available " + cvs[9:] + " " + +cvs_url 
 
         ##Maybe tweet new unavailability
-        if "Unavailable" == cvs and last_data['CVS'].startswith( 'Available' ):
-            tweet_it('CVS vaccination appointments are now closed.')
-            #print("Appointments are not available")
+        # if "Unavailable" == cvs and last_data['CVS'].startswith( 'Available' ):
+            # tweet_it('CVS vaccination appointments are now closed.')
+            ## print("Appointments are not available")
 
     except pd.errors.EmptyDataError:
         df_historical = pd.DataFrame()
@@ -126,24 +126,6 @@ def get_cvs_data():
         return "Available " + message
     else:
         return "Unavailable"
-
-def tweet_it(message):
-    CONSUMER_KEY = os.environ.get('TWITTER_CONSUMER_KEY')
-    CONSUMER_SECRET = os.environ.get('TWITTER_CONSUMER_SECRET')
-    ACCESS_KEY = os.environ.get('TWITTER_ACCESS_KEY')
-    ACCESS_SECRET = os.environ.get('TWITTER_ACCESS_SECRET')
-
-    # OAuth process, using the keys and tokens
-    auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
-    auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
-    api = tweepy.API(auth)
-    
-    ##TODO: Error handling
-    ##Try to get around twitter duplicate messaging
-    tz = timezone('America/New_York')
-    message = message + " [" + str(datetime.now(tz).strftime('%m-%d-%Y %I:%M %p')) + "]"
-    print("Tweeting message: " + message)
-    api.update_status(message)
 
 
 main()
