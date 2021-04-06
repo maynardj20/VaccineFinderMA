@@ -26,7 +26,6 @@ jobs:
           $CHROMEWEBDRIVER/chromedriver --url-base=/wd/hub /dev/null 2>&1 &
 
       - name: execute py script # run check.py to get the latest data
-        env: 
         run: |
           export CHROMEWEBDRIVER=$CHROMEWEBDRIVER/chromedriver
           python check.py  
