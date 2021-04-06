@@ -3,7 +3,7 @@
 
 This repository checks several CVS locations in the Massachusetts Region for availability of Covid 19 vaccination appointments.
 
-Follow <img alt="" src="https://favicons.githubusercontent.com/www.twitter.com" height="13"> **[Twitter bot](https://twitter.com/FinderMass)** <img alt="" src="https://favicons.githubusercontent.com/www.twitter.com" height="13"> to get notified of new appointment availability!
+Based on [VaccineFinderMA](https://github.com/JimmyAstle/VaccineFinderMA) by JimmyAstle, customized for locations I was curious about.
 
 <!--start: status pages-->
 **Last Updated**: 2021-04-06 06:43 PM
@@ -18,39 +18,22 @@ Follow <img alt="" src="https://favicons.githubusercontent.com/www.twitter.com" 
 This checks the following locations approximatly every 15 minutes using GitHub Actions.
 
 * The following CVS locations:
-  * Medford
-  * Danvers
-  * Gloucester
-  * Lynn
-  * Medford
-  * Reading
-  * Saugus
+  * Boston
   * Somerville
-  * Stoneham
-  * Winchester
-  * Woburn
-  * Marblehead
-  * Marlborough
-  * Framingham
-  * Westborough
-  * Revere
+  * Dorchester
+  * Brighton
+  * Brookline
+  * Cambridge
+  * Medford
   * Arlington
   * Malden
-  * Peabody
-  * Worcester
-  * Lowell
-  * Dracut
-  * Billerica
-  * Wilmington
-  * Methuen
-  * Lawrence
-  * Attleboro
-  * North Attleboro
-  * Seekonk
-  * Wrentham
-  * Arlington
   * Watertown
   * Waltham
+  * Westford
+  * Acton
+  * Maynard
+  * Concord
+  * Leominster
 
 
 ## Historical data
@@ -59,7 +42,7 @@ Historical availability data from previous checks can be found in the [data/site
 
 ## Acknowledgements
 
-The code in this repo is a modified version of the code found here [CapitalRegionVaccine](https://github.com/CapitalRegionVaccine/CapitalRegionVaccine)
+The code in this repo is a forked version of the code found here [VaccineFinderMA](https://github.com/JimmyAstle/VaccineFinderMA), which is based on [CapitalRegionVaccine](https://github.com/CapitalRegionVaccine/CapitalRegionVaccine)
 
 ## 📄 License
 
