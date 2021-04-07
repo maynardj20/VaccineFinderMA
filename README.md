@@ -6,11 +6,11 @@ This repository checks several CVS locations in the Massachusetts Region for ava
 Based on [VaccineFinderMA](https://github.com/JimmyAstle/VaccineFinderMA) by JimmyAstle, customized for locations I was curious about.
 
 <!--start: status pages-->
-**Last Updated**: 2021-04-07 05:54 PM
+**Last Updated**: 2021-04-07 06:15 PM
 
 | Site                | Status         |
 | ------------------- | -------------- |
-| <img alt="" src="https://favicons.githubusercontent.com/www.cvs.com" height="13"> [CVS](https://www.cvs.com/immunizations/covid-19-vaccine)               | :no_entry: Unavailable    |
+| <img alt="" src="https://favicons.githubusercontent.com/www.cvs.com" height="13"> [CVS](https://www.cvs.com/immunizations/covid-19-vaccine)               | :white_check_mark: Available LEOMINSTER       |
 <!--end: status pages-->
 
 ## Site Information
