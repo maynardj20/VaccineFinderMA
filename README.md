@@ -6,7 +6,7 @@ This repository checks several CVS locations in the Massachusetts Region for ava
 Based on [VaccineFinderMA](https://github.com/JimmyAstle/VaccineFinderMA) by JimmyAstle, customized for locations I was curious about.
 
 <!--start: status pages-->
-**Last Updated**: 2021-04-11 08:43 PM
+**Last Updated**: 2021-04-11 09:57 PM
 
 | Site                | Status         |
 | ------------------- | -------------- |
