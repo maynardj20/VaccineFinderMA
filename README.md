@@ -6,11 +6,11 @@ This repository checks several CVS locations in the Massachusetts Region for ava
 Based on [VaccineFinderMA](https://github.com/JimmyAstle/VaccineFinderMA) by JimmyAstle, customized for locations I was curious about.
 
 <!--start: status pages-->
-**Last Updated**: 2021-04-20 03:50 AM
+**Last Updated**: 2021-04-20 04:15 AM
 
 | Site                | Status         |
 | ------------------- | -------------- |
-| <img alt="" src="https://favicons.githubusercontent.com/www.cvs.com" height="13"> [CVS](https://www.cvs.com/immunizations/covid-19-vaccine)               | :no_entry: Unavailable    |
+| <img alt="" src="https://favicons.githubusercontent.com/www.cvs.com" height="13"> [CVS](https://www.cvs.com/immunizations/covid-19-vaccine)               | :white_check_mark: Available BOSTON CAMBRIDGE DORCHESTER MALDEN MAYNARD MEDFORD SOMERVILLE WALTHAM WATERTOWN       |
 <!--end: status pages-->
 
 ## Site Information
